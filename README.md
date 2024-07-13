@@ -31,8 +31,8 @@ First setup all the necessary resource group, storage account and blob to store 
 ```shell
 az login
 
-RESOURCE_GROUP_NAME=terraform-evidence
-STORAGE_ACCOUNT_NAME=terraformevidence
+RESOURCE_GROUP_NAME=terraform
+STORAGE_ACCOUNT_NAME=terraform
 CONTAINER_NAME=tfstate
 
 # Create resource group
